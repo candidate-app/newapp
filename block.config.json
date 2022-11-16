@@ -1,0 +1,13 @@
+{
+  "name": "newapp",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/candidate-app/newapp",
+    "ssh": "git@github.com:candidate-app/newapp.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
